@@ -4,22 +4,17 @@
 ---
 
 @title[iOS App]
-# Swingvy iOS
+---?include=swingvy-ios.md
 
 ---
 
 @title[TypeScript]
-# TypeScript
-
----
-
-@title[TypeScript 문법]
-# TypeScript 문법
+## TypeScript
 
 ---
 
 @title[Swingvy Admin]
-# Swingvy Admin에서 사용한 TypeScript
+## Swingvy Admin
 
 ---
 
