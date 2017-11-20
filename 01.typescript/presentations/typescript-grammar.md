@@ -81,7 +81,7 @@ document.body.innerHTML = greeter(user);
 ```
 
 +++
-### React with TypeScript
+### React with TypeScript1
 ```javascript
 // src/components/Hello.tsx
 
@@ -113,6 +113,20 @@ export default Hello;
 function getExclamationMarks(numChars: number) {
   return Array(numChars + 1).join('!');
 }
+```
+
++++
+### React with TypeScript2
+```javascript
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+
+import { Hello } from "./components/Hello";
+
+ReactDOM.render(
+    <Hello name="TypeScript" enthusiasmLevel=2 />,
+    document.getElementById("example")
+);
 ```
 
 +++
