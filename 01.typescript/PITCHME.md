@@ -9,4 +9,5 @@
 
 ---?include=01.typescript/presentations/swingvy-admin.md
 
-## The End!!
+---
+# The End!!
