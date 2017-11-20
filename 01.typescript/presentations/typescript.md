@@ -11,3 +11,5 @@
 <span style="font-family:Helvetica Neue;">
 <span style="color:#FFF; font-weight:bold;">Type<span style="font-weight:normal; color:#FFF">Script</span></span> <span style="color:#e49436">is</span> JavaScript</span>
 
++++
+![Alt text](01.typescript/images/image4.png)
