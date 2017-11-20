@@ -1,19 +1,17 @@
 @title[Swingvy iOS]
 ## Swingvy iOS
 
----
++++
 
-a
+### 너무나 많은 Business 모델 객체들
 
 +++
 
-b
+### Component 간에 전달되는 state의 type을 알고 싶은 욕구
 
 +++
 
-c
-
-+++
-
-
-### 
+### 깜짝 Question <br>
+ - Timeoff
+ - TimeoffBalance |
+ - TimeoffBalanceHistory |
