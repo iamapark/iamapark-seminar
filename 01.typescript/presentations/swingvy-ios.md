@@ -7,7 +7,8 @@
 
 +++
 
-### Component 간에 전달되는 state의 type을 알고 싶은 욕구
+### Component 간에 전달되는 prop의 type을 알고 싶은 욕구
+![Alt text](../images/image1.png)
 
 +++
 
