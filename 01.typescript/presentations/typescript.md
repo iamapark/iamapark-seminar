@@ -16,8 +16,7 @@ function greeter(person: string) {
 let user = "Jane User";
 
 document.body.innerHTML = greeter(user);
-
-
+===========================
 function greeter(person) {
     return "Hello, " + person;
 }
@@ -28,4 +27,19 @@ document.body.innerHTML = greeter(user);
 
 ```
 @[1-7](function parameter type)
-@[10-18](compile result)
+@[9-16](compile result)
+
++++
+
+```javascript
+function greeter(person: string) {
+    return "Hello, " + person;
+}
+
+let user = [0, 1, 2];
+
+document.body.innerHTML = greeter(user);
+```
+```
+error TS2345: Argument of type 'number[]' is not assignable to parameter of type 'string'.
+```
