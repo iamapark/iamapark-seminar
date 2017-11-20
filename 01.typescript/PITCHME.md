@@ -1,7 +1,7 @@
 @title[Introduction]
 # Dev Seminar 01.TypeScript
 
----?include=presentations/swingvy-ios.md
+---?include=01.typescript/presentations/swingvy-ios.md
 
 @title[TypeScript]
 ## TypeScript
