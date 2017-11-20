@@ -3,14 +3,10 @@
 
 ---?include=01.typescript/presentations/swingvy-ios.md
 
-@title[TypeScript]
-## TypeScript
+---?include=01.typescript/presentations/typescript.md
 
----
+---?include=01.typescript/presentations/typescript-grammar.md
 
-@title[Swingvy Admin]
-## Swingvy Admin
-
----
+---?include=01.typescript/presentations/swingvy-admin.md
 
 ## The End!!
