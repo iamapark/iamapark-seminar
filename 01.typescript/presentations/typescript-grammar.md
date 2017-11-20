@@ -83,9 +83,40 @@ document.body.innerHTML = greeter(user);
 +++
 ### React with TypeScript
 ```javascript
-import * as React from "react";
+// src/components/Hello.tsx
 
-export interface HelloProps { compiler: string; framework: string; }
+import * as React from 'react';
 
-export const Hello = (props: HelloProps) => <h1>Hello from {props.compiler} and {props.framework}!</h1>;
+export interface Props {
+  name: string;
+  enthusiasmLevel?: number;
+}
+
+function Hello({ name, enthusiasmLevel = 1 }: Props) {
+  if (enthusiasmLevel <= 0) {
+    throw new Error('You could be a little more enthusiastic. :D');
+  }
+
+  return (
+    <div className="hello">
+      <div className="greeting">
+        Hello {name + getExclamationMarks(enthusiasmLevel)}
+      </div>
+    </div>
+  );
+}
+
+export default Hello;
+
+// helpers
+
+function getExclamationMarks(numChars: number) {
+  return Array(numChars + 1).join('!');
+}
 ```
+
++++
+### Tutorial
+ - [Official Documentation](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+ - [Migration Guide](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
+ - [Converting JavaScript/React to TypeScript](https://github.com/Microsoft/TypeScript-React-Conversion-Guide#typescript-react-conversion-guide)
